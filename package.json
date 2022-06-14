@@ -1,7 +1,6 @@
 {
   "name": "@marco.cabrejos/simple-security-wrapper-component",
-  "version": "0.0.1",
-  "private": false,
+  "version": "0.0.3",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -15,19 +14,32 @@
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.7.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "gulp": "4.0.2",
+    "gulp-exec": "5.0.0",
+    "gulp-json-format": "2.0.0",
+    "gulp-typescript": "6.0.0-alpha.1",
+    "gulp4-run-sequence": "1.0.1",
+    "find-imports": "1.1.0",
+    "string-similarity": "4.0.2",
+    "eslint": "6.7.2",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-config-ts-react-important-stuff": "2.0.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-react": "7.19.0",
+    "eslint-plugin-react-hooks": "3.0.0",
+    "@typescript-eslint/eslint-plugin": "2.27.0",
+    "@typescript-eslint/parser": "2.27.0",
+    "copyfiles": "2.2.0",
+    "barrel-me": "1.0.4",
+    "concurrently": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "gulp build-components",
+    "publish-cmp": "npm run build && npm publish --access=public lib/src/components",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [

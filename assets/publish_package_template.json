@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "version": "",
+  "description": "Custom react components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcocabrejos/simple-security-wrapper-component"
+  },
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "marcocabrejos19@gmail.com",
+  "dependencies": {},
+  "peerDependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/marcocabrejos/simple-security-wrapper-component",
+  "license": "ISC"
+}

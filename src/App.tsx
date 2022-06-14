@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {SecurityWrapper} from "./Components/SecurityWrapper/SecurityWrapper";
+import {SecurityWrapper} from "./components/SecurityWrapper/SecurityWrapper";
 
 
 const dataRoles = [
