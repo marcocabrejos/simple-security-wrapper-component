@@ -5,6 +5,7 @@ export interface ISecurityWrapperProps {
   requiredRoles?: Role[];
   componentId?: string;
   userRoles?: string[];
+  render: (disabled: boolean) => React.ReactNode;
 }
 
 export type Role = {

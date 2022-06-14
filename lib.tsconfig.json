@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "lib/src/components",
+    "outDir": "lib/src",
     "module": "esnext",
     "target": "es5",
     "types": ["node"],
@@ -19,7 +19,7 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/components"],
+  "include": ["src"],
   "exclude": [
     "components",
     "node_modules",
