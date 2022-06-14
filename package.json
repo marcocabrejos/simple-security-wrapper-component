@@ -1,6 +1,6 @@
 {
   "name": "@marco.cabrejos/simple-security-wrapper-component",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.4",
@@ -39,7 +39,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "gulp build-components",
-    "publish-cmp": "npm run build && npm publish --access=public lib/src",
+    "publish-cmp": "npm run build && npm publish --access=public lib/src/components",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

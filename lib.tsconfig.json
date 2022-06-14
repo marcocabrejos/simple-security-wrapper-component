@@ -19,7 +19,7 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src"],
+  "include": ["src/components"],
   "exclude": [
     "components",
     "node_modules",
